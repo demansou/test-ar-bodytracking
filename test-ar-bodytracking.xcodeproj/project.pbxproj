@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64FB8EFF27669AB5000C2833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8EFE27669AB5000C2833 /* AppDelegate.swift */; };
+		64FB8F0127669AB5000C2833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F0027669AB5000C2833 /* ContentView.swift */; };
+		64FB8F0327669AB5000C2833 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F0227669AB5000C2833 /* Experience.rcproject */; };
+		64FB8F0527669AB8000C2833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8F0427669AB8000C2833 /* Assets.xcassets */; };
+		64FB8F0827669AB8000C2833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8F0727669AB8000C2833 /* Preview Assets.xcassets */; };
+		64FB8F1227669AB8000C2833 /* test_ar_bodytrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F1127669AB8000C2833 /* test_ar_bodytrackingTests.swift */; };
+		64FB8F1C27669AB8000C2833 /* test_ar_bodytrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F1B27669AB8000C2833 /* test_ar_bodytrackingUITests.swift */; };
+		64FB8F1E27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F1D27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64FB8F0E27669AB8000C2833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64FB8EF327669AB5000C2833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FB8EFA27669AB5000C2833;
+			remoteInfo = "test-ar-bodytracking";
+		};
+		64FB8F1827669AB8000C2833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64FB8EF327669AB5000C2833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FB8EFA27669AB5000C2833;
+			remoteInfo = "test-ar-bodytracking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64FB8EFB27669AB5000C2833 /* test-ar-bodytracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ar-bodytracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FB8EFE27669AB5000C2833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64FB8F0027669AB5000C2833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64FB8F0227669AB5000C2833 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		64FB8F0427669AB8000C2833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64FB8F0727669AB8000C2833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64FB8F0D27669AB8000C2833 /* test-ar-bodytrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ar-bodytrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FB8F1127669AB8000C2833 /* test_ar_bodytrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ar_bodytrackingTests.swift; sourceTree = "<group>"; };
+		64FB8F1727669AB8000C2833 /* test-ar-bodytrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ar-bodytrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FB8F1B27669AB8000C2833 /* test_ar_bodytrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ar_bodytrackingUITests.swift; sourceTree = "<group>"; };
+		64FB8F1D27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ar_bodytrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FB8EF827669AB5000C2833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB8F0A27669AB8000C2833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB8F1427669AB8000C2833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64FB8EF227669AB5000C2833 = {
+			isa = PBXGroup;
+			children = (
+				64FB8EFD27669AB5000C2833 /* test-ar-bodytracking */,
+				64FB8F1027669AB8000C2833 /* test-ar-bodytrackingTests */,
+				64FB8F1A27669AB8000C2833 /* test-ar-bodytrackingUITests */,
+				64FB8EFC27669AB5000C2833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64FB8EFC27669AB5000C2833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8EFB27669AB5000C2833 /* test-ar-bodytracking.app */,
+				64FB8F0D27669AB8000C2833 /* test-ar-bodytrackingTests.xctest */,
+				64FB8F1727669AB8000C2833 /* test-ar-bodytrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FB8EFD27669AB5000C2833 /* test-ar-bodytracking */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8EFE27669AB5000C2833 /* AppDelegate.swift */,
+				64FB8F0027669AB5000C2833 /* ContentView.swift */,
+				64FB8F0227669AB5000C2833 /* Experience.rcproject */,
+				64FB8F0427669AB8000C2833 /* Assets.xcassets */,
+				64FB8F0627669AB8000C2833 /* Preview Content */,
+			);
+			path = "test-ar-bodytracking";
+			sourceTree = "<group>";
+		};
+		64FB8F0627669AB8000C2833 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F0727669AB8000C2833 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64FB8F1027669AB8000C2833 /* test-ar-bodytrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F1127669AB8000C2833 /* test_ar_bodytrackingTests.swift */,
+			);
+			path = "test-ar-bodytrackingTests";
+			sourceTree = "<group>";
+		};
+		64FB8F1A27669AB8000C2833 /* test-ar-bodytrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F1B27669AB8000C2833 /* test_ar_bodytrackingUITests.swift */,
+				64FB8F1D27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift */,
+			);
+			path = "test-ar-bodytrackingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64FB8EFA27669AB5000C2833 /* test-ar-bodytracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FB8F2127669AB8000C2833 /* Build configuration list for PBXNativeTarget "test-ar-bodytracking" */;
+			buildPhases = (
+				64FB8EF727669AB5000C2833 /* Sources */,
+				64FB8EF827669AB5000C2833 /* Frameworks */,
+				64FB8EF927669AB5000C2833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-ar-bodytracking";
+			productName = "test-ar-bodytracking";
+			productReference = 64FB8EFB27669AB5000C2833 /* test-ar-bodytracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64FB8F0C27669AB8000C2833 /* test-ar-bodytrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FB8F2427669AB8000C2833 /* Build configuration list for PBXNativeTarget "test-ar-bodytrackingTests" */;
+			buildPhases = (
+				64FB8F0927669AB8000C2833 /* Sources */,
+				64FB8F0A27669AB8000C2833 /* Frameworks */,
+				64FB8F0B27669AB8000C2833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64FB8F0F27669AB8000C2833 /* PBXTargetDependency */,
+			);
+			name = "test-ar-bodytrackingTests";
+			productName = "test-ar-bodytrackingTests";
+			productReference = 64FB8F0D27669AB8000C2833 /* test-ar-bodytrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64FB8F1627669AB8000C2833 /* test-ar-bodytrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FB8F2727669AB8000C2833 /* Build configuration list for PBXNativeTarget "test-ar-bodytrackingUITests" */;
+			buildPhases = (
+				64FB8F1327669AB8000C2833 /* Sources */,
+				64FB8F1427669AB8000C2833 /* Frameworks */,
+				64FB8F1527669AB8000C2833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64FB8F1927669AB8000C2833 /* PBXTargetDependency */,
+			);
+			name = "test-ar-bodytrackingUITests";
+			productName = "test-ar-bodytrackingUITests";
+			productReference = 64FB8F1727669AB8000C2833 /* test-ar-bodytrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64FB8EF327669AB5000C2833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					64FB8EFA27669AB5000C2833 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					64FB8F0C27669AB8000C2833 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 64FB8EFA27669AB5000C2833;
+					};
+					64FB8F1627669AB8000C2833 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 64FB8EFA27669AB5000C2833;
+					};
+				};
+			};
+			buildConfigurationList = 64FB8EF627669AB5000C2833 /* Build configuration list for PBXProject "test-ar-bodytracking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64FB8EF227669AB5000C2833;
+			productRefGroup = 64FB8EFC27669AB5000C2833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64FB8EFA27669AB5000C2833 /* test-ar-bodytracking */,
+				64FB8F0C27669AB8000C2833 /* test-ar-bodytrackingTests */,
+				64FB8F1627669AB8000C2833 /* test-ar-bodytrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64FB8EF927669AB5000C2833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB8F0827669AB8000C2833 /* Preview Assets.xcassets in Resources */,
+				64FB8F0527669AB8000C2833 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB8F0B27669AB8000C2833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB8F1527669AB8000C2833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64FB8EF727669AB5000C2833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB8F0127669AB5000C2833 /* ContentView.swift in Sources */,
+				64FB8EFF27669AB5000C2833 /* AppDelegate.swift in Sources */,
+				64FB8F0327669AB5000C2833 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB8F0927669AB8000C2833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB8F1227669AB8000C2833 /* test_ar_bodytrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64FB8F1327669AB8000C2833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FB8F1E27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift in Sources */,
+				64FB8F1C27669AB8000C2833 /* test_ar_bodytrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64FB8F0F27669AB8000C2833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64FB8EFA27669AB5000C2833 /* test-ar-bodytracking */;
+			targetProxy = 64FB8F0E27669AB8000C2833 /* PBXContainerItemProxy */;
+		};
+		64FB8F1927669AB8000C2833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64FB8EFA27669AB5000C2833 /* test-ar-bodytracking */;
+			targetProxy = 64FB8F1827669AB8000C2833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64FB8F1F27669AB8000C2833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64FB8F2027669AB8000C2833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64FB8F2227669AB8000C2833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-ar-bodytracking/Preview Content\"";
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.test-ar-bodytracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64FB8F2327669AB8000C2833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test-ar-bodytracking/Preview Content\"";
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.test-ar-bodytracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64FB8F2527669AB8000C2833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.test-ar-bodytrackingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ar-bodytracking.app/test-ar-bodytracking";
+			};
+			name = Debug;
+		};
+		64FB8F2627669AB8000C2833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.test-ar-bodytrackingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test-ar-bodytracking.app/test-ar-bodytracking";
+			};
+			name = Release;
+		};
+		64FB8F2827669AB8000C2833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.test-ar-bodytrackingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test-ar-bodytracking";
+			};
+			name = Debug;
+		};
+		64FB8F2927669AB8000C2833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.test-ar-bodytrackingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "test-ar-bodytracking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64FB8EF627669AB5000C2833 /* Build configuration list for PBXProject "test-ar-bodytracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB8F1F27669AB8000C2833 /* Debug */,
+				64FB8F2027669AB8000C2833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FB8F2127669AB8000C2833 /* Build configuration list for PBXNativeTarget "test-ar-bodytracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB8F2227669AB8000C2833 /* Debug */,
+				64FB8F2327669AB8000C2833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FB8F2427669AB8000C2833 /* Build configuration list for PBXNativeTarget "test-ar-bodytrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB8F2527669AB8000C2833 /* Debug */,
+				64FB8F2627669AB8000C2833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FB8F2727669AB8000C2833 /* Build configuration list for PBXNativeTarget "test-ar-bodytrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FB8F2827669AB8000C2833 /* Debug */,
+				64FB8F2927669AB8000C2833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64FB8EF327669AB5000C2833 /* Project object */;
+}
