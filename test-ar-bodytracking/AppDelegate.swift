@@ -10,7 +10,8 @@ import SwiftUI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    @StateObject var sessionSettings = SessionSettings()
+    
     var window: UIWindow?
 
 
@@ -18,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
+            .environmentObject(sessionSettings)
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)

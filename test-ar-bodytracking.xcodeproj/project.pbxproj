@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		64FB8EFF27669AB5000C2833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8EFE27669AB5000C2833 /* AppDelegate.swift */; };
 		64FB8F0127669AB5000C2833 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F0027669AB5000C2833 /* ContentView.swift */; };
-		64FB8F0327669AB5000C2833 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F0227669AB5000C2833 /* Experience.rcproject */; };
 		64FB8F0527669AB8000C2833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8F0427669AB8000C2833 /* Assets.xcassets */; };
 		64FB8F0827669AB8000C2833 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64FB8F0727669AB8000C2833 /* Preview Assets.xcassets */; };
 		64FB8F1227669AB8000C2833 /* test_ar_bodytrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F1127669AB8000C2833 /* test_ar_bodytrackingTests.swift */; };
 		64FB8F1C27669AB8000C2833 /* test_ar_bodytrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F1B27669AB8000C2833 /* test_ar_bodytrackingUITests.swift */; };
 		64FB8F1E27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F1D27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift */; };
+		64FB8F2F27669BE9000C2833 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F2E27669BE9000C2833 /* CustomARView.swift */; };
+		64FB8F312766A114000C2833 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F302766A114000C2833 /* ControlView.swift */; };
+		64FB8F342766A14B000C2833 /* ControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F332766A14B000C2833 /* ControlButtonView.swift */; };
+		64FB8F432766AE9E000C2833 /* ControlVisbilityToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F422766AE9E000C2833 /* ControlVisbilityToggleView.swift */; };
+		64FB8F482766B484000C2833 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F472766B484000C2833 /* BottomBarView.swift */; };
+		64FB8F4F2766BF3E000C2833 /* CustomARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F4E2766BF3E000C2833 /* CustomARViewContainer.swift */; };
+		64FB8F642766FE68000C2833 /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F632766FE68000C2833 /* SessionSettings.swift */; };
+		64FB8F6827670A04000C2833 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F6727670A04000C2833 /* BodySkeleton.swift */; };
+		64FB8F6A27671999000C2833 /* ARView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB8F6927671999000C2833 /* ARView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +46,6 @@
 		64FB8EFB27669AB5000C2833 /* test-ar-bodytracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ar-bodytracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FB8EFE27669AB5000C2833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64FB8F0027669AB5000C2833 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		64FB8F0227669AB5000C2833 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		64FB8F0427669AB8000C2833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64FB8F0727669AB8000C2833 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64FB8F0D27669AB8000C2833 /* test-ar-bodytrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ar-bodytrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +53,15 @@
 		64FB8F1727669AB8000C2833 /* test-ar-bodytrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ar-bodytrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FB8F1B27669AB8000C2833 /* test_ar_bodytrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ar_bodytrackingUITests.swift; sourceTree = "<group>"; };
 		64FB8F1D27669AB8000C2833 /* test_ar_bodytrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ar_bodytrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64FB8F2E27669BE9000C2833 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		64FB8F302766A114000C2833 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		64FB8F332766A14B000C2833 /* ControlButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButtonView.swift; sourceTree = "<group>"; };
+		64FB8F422766AE9E000C2833 /* ControlVisbilityToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlVisbilityToggleView.swift; sourceTree = "<group>"; };
+		64FB8F472766B484000C2833 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		64FB8F4E2766BF3E000C2833 /* CustomARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewContainer.swift; sourceTree = "<group>"; };
+		64FB8F632766FE68000C2833 /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		64FB8F6727670A04000C2833 /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+		64FB8F6927671999000C2833 /* ARView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +112,10 @@
 		64FB8EFD27669AB5000C2833 /* test-ar-bodytracking */ = {
 			isa = PBXGroup;
 			children = (
+				64FB8F522766C38D000C2833 /* Factories */,
+				64FB8F2B27669BA4000C2833 /* Models */,
+				64FB8F2A27669B86000C2833 /* Views */,
 				64FB8EFE27669AB5000C2833 /* AppDelegate.swift */,
-				64FB8F0027669AB5000C2833 /* ContentView.swift */,
-				64FB8F0227669AB5000C2833 /* Experience.rcproject */,
 				64FB8F0427669AB8000C2833 /* Assets.xcassets */,
 				64FB8F0627669AB8000C2833 /* Preview Content */,
 			);
@@ -130,6 +147,93 @@
 			path = "test-ar-bodytrackingUITests";
 			sourceTree = "<group>";
 		};
+		64FB8F2A27669B86000C2833 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F3C2766A947000C2833 /* ControlButtonView */,
+				64FB8F382766A334000C2833 /* ControlView */,
+				64FB8F362766A319000C2833 /* ContentView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64FB8F2B27669BA4000C2833 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F632766FE68000C2833 /* SessionSettings.swift */,
+				64FB8F6727670A04000C2833 /* BodySkeleton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64FB8F362766A319000C2833 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F4D2766BF26000C2833 /* CustomARViewContainer */,
+				64FB8F0027669AB5000C2833 /* ContentView.swift */,
+			);
+			name = ContentView;
+			sourceTree = "<group>";
+		};
+		64FB8F372766A328000C2833 /* CustomARView */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F2E27669BE9000C2833 /* CustomARView.swift */,
+			);
+			name = CustomARView;
+			sourceTree = "<group>";
+		};
+		64FB8F382766A334000C2833 /* ControlView */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F462766B476000C2833 /* BottomBarView */,
+				64FB8F412766AE86000C2833 /* ControlVisibilityToggleView */,
+				64FB8F302766A114000C2833 /* ControlView.swift */,
+			);
+			name = ControlView;
+			sourceTree = "<group>";
+		};
+		64FB8F3C2766A947000C2833 /* ControlButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F332766A14B000C2833 /* ControlButtonView.swift */,
+			);
+			name = ControlButtonView;
+			sourceTree = "<group>";
+		};
+		64FB8F412766AE86000C2833 /* ControlVisibilityToggleView */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F422766AE9E000C2833 /* ControlVisbilityToggleView.swift */,
+			);
+			name = ControlVisibilityToggleView;
+			sourceTree = "<group>";
+		};
+		64FB8F462766B476000C2833 /* BottomBarView */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F472766B484000C2833 /* BottomBarView.swift */,
+			);
+			name = BottomBarView;
+			sourceTree = "<group>";
+		};
+		64FB8F4D2766BF26000C2833 /* CustomARViewContainer */ = {
+			isa = PBXGroup;
+			children = (
+				64FB8F372766A328000C2833 /* CustomARView */,
+				64FB8F4E2766BF3E000C2833 /* CustomARViewContainer.swift */,
+				64FB8F6927671999000C2833 /* ARView+Extension.swift */,
+			);
+			name = CustomARViewContainer;
+			sourceTree = "<group>";
+		};
+		64FB8F522766C38D000C2833 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +250,8 @@
 			dependencies = (
 			);
 			name = "test-ar-bodytracking";
+			packageProductDependencies = (
+			);
 			productName = "test-ar-bodytracking";
 			productReference = 64FB8EFB27669AB5000C2833 /* test-ar-bodytracking.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +324,9 @@
 				Base,
 			);
 			mainGroup = 64FB8EF227669AB5000C2833;
+			packageReferences = (
+				64FB8F5C2766F139000C2833 /* XCRemoteSwiftPackageReference "Resolver" */,
+			);
 			productRefGroup = 64FB8EFC27669AB5000C2833 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FB8F2F27669BE9000C2833 /* CustomARView.swift in Sources */,
+				64FB8F642766FE68000C2833 /* SessionSettings.swift in Sources */,
 				64FB8F0127669AB5000C2833 /* ContentView.swift in Sources */,
+				64FB8F6827670A04000C2833 /* BodySkeleton.swift in Sources */,
+				64FB8F4F2766BF3E000C2833 /* CustomARViewContainer.swift in Sources */,
+				64FB8F342766A14B000C2833 /* ControlButtonView.swift in Sources */,
+				64FB8F482766B484000C2833 /* BottomBarView.swift in Sources */,
+				64FB8F6A27671999000C2833 /* ARView+Extension.swift in Sources */,
 				64FB8EFF27669AB5000C2833 /* AppDelegate.swift in Sources */,
-				64FB8F0327669AB5000C2833 /* Experience.rcproject in Sources */,
+				64FB8F432766AE9E000C2833 /* ControlVisbilityToggleView.swift in Sources */,
+				64FB8F312766A114000C2833 /* ControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +730,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64FB8F5C2766F139000C2833 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 64FB8EF327669AB5000C2833 /* Project object */;
 }
